@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.loader {
+  height: 50px;
+  width: 50px;
+  color: white;
+  border-radius: 50%;
+  border-top: 3px solid #34495e;
+  border-right: 3px solid #34495e;
+  animation: spin 1.5s linear infinite;
+}
+
+.App-header {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #34495e;
+}
+
+.App-link {
+  color: #16a487;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.table th,
+td {
+  border: 1px solid white;
+  padding: 15px;
+}
+
+.files-list {
+  list-style: none;
+}
+
+.files-list li {
+  background-color: #16a487;
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  transition: 0.5s;
+}
+
+.files-list li:hover {
+  background-color: #156958;
+  cursor: pointer;
+}
+
+.files-list-item {
+  display: inline-block;
+}
+
+.results {
+  max-height: 40vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
