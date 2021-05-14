@@ -1,7 +1,5 @@
 # Maximo Macchi - CSV Parser
 
-CSV Parser where users can upload CSV files to be parsed and analyzed. Files are stored locally once uploaded and data analytics are shown to user. Built using React and Node.js.
-
 ## How to Run
 
 Open two terminals, one to run the client app and one to run the server.
